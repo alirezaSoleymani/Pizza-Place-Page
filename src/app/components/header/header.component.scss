@@ -1,0 +1,79 @@
+@import "../../../../public/base/custom-variables";
+
+nav {
+  height: 10vh;
+}
+.navbar {
+  background-color: rgba(53, 80, 112, 0.95);
+}
+#hero {
+  height: 100vh;
+  background-image: url(/images/hero-pizza.png);
+  background-size: cover;
+  background-position: center;
+
+  font-family: "Cormorant Garamond";
+}
+
+.btn-browse-menu {
+  border: none;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  font-family: raleway;
+  background-color: #e56b6f;
+  color: #f4f1de;
+  font-size: 1.2rem;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #b56576; // Slightly darker coral
+  }
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+a img {
+  width: 3rem;
+}
+.navbar-brand {
+  font-family: "great vibes";
+  font-size: 2rem;
+  color: #ffc58a;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); // Soft shadow for depth
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+  color: #ffd580; // A subtle highlight on hover
+  transform: scale(1.05);
+}
+.nav-link {
+  font-family: raleway;
+  color: #f4f1de;
+  transition: color 0.3s;
+
+  &:hover {
+    color: #e56b6f; // Warm Coral
+  }
+}
+
+.welcome {
+  position: relative;
+  top: 22.5%;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+  color: #f4f1de;
+}
+
+.hero h1,
+h2 {
+  background: rgba(0, 0, 0, 0.6); // Slightly transparent, blends in better
+  padding: 10px 20px;
+  border-radius: 5px; // Soft rounded edges
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.2); // Very subtle white border
+}
