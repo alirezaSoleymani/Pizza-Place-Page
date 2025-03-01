@@ -1,10 +1,11 @@
-$primary: #e56b6f; // Warm Coral for primary color (buttons, links, etc.)
-$secondary: #355070; // Dark Blue for secondary color (footer, highlights)
-$success: #eaac8b; // Peach Beige for success
-$info: #6d597a; // Muted Purple for informational highlights
-$warning: #b56576; // Soft Red for warning
-$danger: #b56576; // Soft Red for danger
-$light: #f4f1de; // Light Cream for light backgrounds
-$dark: #333333; // Dark color for text or dark backgrounds
-
+$primary: #003366; // Dark Blue
+$secondary: #4e5d6c; // Slate Gray
+$success: #1f8e3c; // Dark Green
+$info: #1a6782; // Deep Teal
+$warning: #e58e00; // Golden Amber
+$danger: #d32f2f; // Dark Red
+$light: #f4f6f8; // Very Light Gray
+$dark: #1c1f24; // Charcoal Gray
+$accent: #006f8e; // Blue Accent
+$text-color: #e1e4e8; // Light Gray Text
 @import "bootstrap/scss/bootstrap";
