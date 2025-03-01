@@ -1,0 +1,28 @@
+<section id="skills">
+  <div class="container py-5">
+    <h2 class="text-center fs-1">SKILLS</h2>
+    <p class="text-center lead mb-0">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+    </p>
+    <div
+      class="skills d-flex justify-content-lg-evenly flex-lg-row flex-column text-center"
+    >
+      @if(skills) { @for (skill of skills; track $index) {
+      <div class="skill card px-5 py-4 mx-3">
+        <img
+          [src]="skill.icon"
+          alt="{{ skill.title }} SVG"
+          width="225px"
+          height="225px"
+          class="skill-icon"
+        />
+        <!-- <h3 class="mb-3">{{ skill.title }}</h3> -->
+        <h5 class="my-3 fw-light">
+          Skill-Level: <strong>{{ skill.skill_level }}</strong>
+        </h5>
+        <p class="skill-description card-text">{{ skill.description }}</p>
+      </div>
+      } }
+    </div>
+  </div>
+</section>

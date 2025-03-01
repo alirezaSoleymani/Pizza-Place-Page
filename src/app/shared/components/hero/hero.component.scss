@@ -1,0 +1,49 @@
+#hero {
+  height: 100vh;
+  background-image: url(/images/203530.jpg);
+  background-size: cover;
+  background-position: center;
+
+  font-family: "Cormorant Garamond";
+}
+
+.btn-browse {
+  border: none;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  font-family: mooli;
+  // background-color: #e56b6f;
+  // color: #f4f1de;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s;
+
+  // &:hover {
+  //   background-color: #b56576; // Slightly darker coral
+  // }
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-family: raleway;
+}
+
+.welcome {
+  position: relative;
+  top: 22.5%;
+  // text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+  // font-weight: 200;
+  font-family: raleway;
+  // color: white;
+}
+
+// .hero h1,
+// h2 {
+//   // background: rgba(0, 0, 0, 0.5); // Slightly transparent, blends in better
+//   // padding: 10px 20px;
+//   // border-radius: 5px; // Soft rounded edges
+//   // display: inline-block;
+//   // border: 1px solid rgba(255, 255, 255, 0.2); // Very subtle white border
+// }

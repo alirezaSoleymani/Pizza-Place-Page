@@ -1,0 +1,38 @@
+@import "../../../../../public/base/custom-variables";
+
+.navbar {
+  background-color: rgba(10, 34, 63, 1);
+}
+
+.avatar {
+  width: 3rem;
+  height: 3rem;
+  background-image: url("../../../../../public/images/alireza-3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  // border: 1px solid white;
+}
+.navbar-brand {
+  // font-family: "great vibes";
+  // font-size: 1.3rem;
+  // height: 3rem;
+  // color: #ffc58a;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+// .navbar-brand:hover {
+//   color: #ffd580; // A subtle highlight on hover
+//   // transform: scale(1.05);
+// }
+.nav-link {
+  font-family: raleway;
+  color: $light;
+  transition: color 0.3s;
+
+  &:hover {
+    color: $light;
+    text-shadow: 1px 1px 3px $light;
+  }
+}
